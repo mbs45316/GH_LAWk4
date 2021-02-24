@@ -3,6 +3,9 @@ let petNames = ['Darcy', 'Jack', 'Jerry', 'Marty', 'Vito', 'Vinny', 'Riley', 'Sa
 let withSal = petNames
 withSal.push('Sal')
 
+petNames.push('Sal')
+
+
 thirdName = petNames[2]
 
 console.log(`The third pet is named ${thirdName}.`)
